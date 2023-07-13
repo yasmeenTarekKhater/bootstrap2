@@ -1,0 +1,150 @@
+
+*{ 
+    font-family: 'Lilita One', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    box-shadow: 2px 4px 5px rgb(168, 164, 164);
+}
+.navbar li a{
+    transition: 0.5s;
+}
+.navbar li a:hover {
+    background-color: rgba(255, 0, 0, 0.685);
+    color: white;
+    transform: scale(1.1);
+}
+.myheader{
+    overflow: hidden;
+    height: 550px;
+    background-color: rgb(219, 215, 215);
+}
+
+.header-right img{
+    width: 200px
+}
+.header-left button{
+background-color: red;
+color: white;
+transition: .5s;
+}
+.header-left button:hover{
+    border: 1px solid red;
+    background-color: transparent;
+    color: red;
+    transform: scale(1.1);
+}
+.new_products .new_products_item div{
+    height: 500px;
+    background-color: rgb(29, 28, 28);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.Our_products .new_products_item div{
+    height: 500px;
+    background-color: rgba(10, 10, 10, 0.774);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.new_products .new_products_item p{
+    color: red;
+    font-weight: bold;
+}
+.new_products img{
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+    transition: .5s;
+    box-shadow: 2px 4px 6px rgba(5, 5, 5, 0.753);
+    margin-bottom: 15px;
+}
+.Our_products img{
+    height: 100%;
+    width: 100%;
+    transform: scale(1.2);
+    transition: .5s;
+    margin-bottom: 15px;
+}
+.new_products img:hover{
+    transform: scale(1.1);
+}
+.Our_products .new_products_item img:hover {   
+transform: scale(1.1);
+opacity: .5;
+}
+.card{
+    overflow: hidden;
+}
+.card img{
+    border-bottom: 2px solid red;
+    width: 300px;
+    margin-left: -20px;
+}
+.card-img-hover{
+    position: relative;
+}
+.card-img-hover i{
+    position: absolute;
+    right: 0;
+    top: 4%;
+    font-size: 20px;
+    color: red;
+    opacity: 0;
+    transition: 0.5s;
+}
+.card-img-hover div{
+    position: absolute;
+    background-color: red;
+    width: 300px;
+    margin-left: -20px;
+    bottom: 0;
+    color: white;
+    opacity: 0;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.card-img-hover:hover i,.card-img-hover:hover div {
+    opacity: .9;
+}
+.myheader2{
+    overflow: hidden;
+    height: 550px;
+}
+footer a i:hover{
+    color: red;
+}
+footer a{
+    color: gray;
+}
+footer a:hover{
+    color: red;
+}
+.last-section{
+    height: fit-conten;
+    margin: 40px auto;
+    background: url("images/vidoe_more.png") no-repeat;
+    background-size: cover;
+    color: white;
+}
+.last-section i{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.try{
+    background-color: rgba(10, 10, 10, 0.774);
+    width: 480px;
+    height: 300px;
+    overflow: hidden;
+}
+.try img{
+    width: 100%;
+    transition:.5s;
+    transform: scale(1.2);
+}
+.try:hover img{
+    opacity: 0.5;
+    object-fit: contain;
+    transform: scale(1.1);
+}
